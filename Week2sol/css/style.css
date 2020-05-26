@@ -1,5 +1,6 @@
-{
-    box-sizing: border-box;                                                         
+* {
+    box-sizing: border-box;  
+                                                         
   }
   
   h3 {
@@ -10,33 +11,40 @@
   
   #chicken {
     float:right;
-    font-size: 17px;
-    background-color: rgb(70, 189, 189);
+    font-size: 34px;
+    background-color:grey;
     position: absolute;
     clear: left;
+    padding: 13px 41px 7px;
     top: 0;
     right: 0;
     margin-top: 0px;
   }
+
+  body{
+    background-color: bisque; 
+  }
   
   
   #beef {
-    font-size: 17px;
-    background-color: rgb(227, 142, 235);
+    font-size: 34px;
+    background-color:brown;
     float: right;
     position: absolute;
     clear: left;
+    padding: 13px 41px 7px;
     top: 0;
     right: 0;
     margin-top: 0px;
   }
   
   #sushi {
-    font-size: 17px;
-    background-color: rgb(26, 224, 85);
+    font-size: 34px;
+    background-color: #cd8538;
     float: right;
     position: absolute;
     clear: left;
+    padding: 13px 41px 7px;
     top: 0;
     right: 0;
     margin-top: 0px;
@@ -51,8 +59,8 @@
   
   }
   section{
-  padding: 5px;
-  margin: 1px;
+  padding: 40px 15px 15px;
+  margin: 16px 0px;
   }
   
   
@@ -72,10 +80,10 @@
         }
       .col-lg-4{
           float: left;
-          border: 2px solid black;
-          width: 33%;
-          margin: 1px;
-          background-color: rgb(20, 138, 173);   
+          border: 4px solid black;
+          width: 32%;
+          margin: 5px;
+          background-color:#853352;   
       }
       .col-lg-5 {
           width: 41.66%;
@@ -126,7 +134,7 @@
       float: left;
       border: 2px solid black;
       width: 48%;
-      background-color: rgb(20, 138, 173);
+      background-color: #853352;
       
     
       margin: 1%;
@@ -150,7 +158,7 @@
     .col-mg-12 {
       margin: 1%;
       padding: 1%;
-      background-color:  rgb(20, 138, 173);
+      background-color:  #853352;
       border: 2px solid black;
       widows: 92%;
     }
@@ -197,8 +205,9 @@
           float: left;
           border: 2px solid black;
           width: 100%;
-          background-color: rgb(20, 117, 173);
-          margin: 1%;
+          background-color: #853352;   
+        
+          margin: 5px;
           padding: 1%;
         }
       
